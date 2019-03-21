@@ -69,7 +69,7 @@
                     @if($login==1)
                         <a href="">Home</a>
                     @else
-                        <a href="http://vm.passport.com/login">login</a>
+                        <a href="http://hao.tactshan.com/login">login</a>
                         <a href="http://hao.tactshan.com/reg">Register</a>
                     @endauth
                 </div>
