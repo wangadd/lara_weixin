@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-<a href="http://vm.passport.com/login">去登录</a>
+<a href="http://hao.tactshan.com/login">去登录</a>
 </body>
 </html>
