@@ -66,6 +66,7 @@
     <body>
         <div class="flex-center position-ref full-height">
                 <div class="top-right links">
+
                     @if($login==1)
                         <a href="">Home</a>
                     @else
