@@ -98,8 +98,7 @@ class WxController extends Controller
         $data=[
             'login'=>$request->get('is_login')
         ];
-        $data['login']=empty($data['login'])?'':$data['login'];
-        return view('welcome',$data);
+        return view('login.menu',$data);
     }
 
 }

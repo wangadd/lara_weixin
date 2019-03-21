@@ -66,13 +66,8 @@
     <body>
         <div class="flex-center position-ref full-height">
                 <div class="top-right links">
-
-                    @if($login==1)
-                        <a href="">Home</a>
-                    @else
                         <a href="http://hao.tactshan.com/login">login</a>
                         <a href="http://hao.tactshan.com/reg">Register</a>
-                    @endauth
                 </div>
             <div class="content">
                 <div class="title m-b-md">
