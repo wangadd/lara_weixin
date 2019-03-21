@@ -107,7 +107,6 @@ class WxController extends Controller
             'url'=>$url,
             'login'=>$request->get('is_login')
         ];
-
         return view('welcome',$data);
     }
 

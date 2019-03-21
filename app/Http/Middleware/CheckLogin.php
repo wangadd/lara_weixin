@@ -23,12 +23,10 @@ class CheckLogin
                 $request->attributes->add(['is_login'=>1]);
             }else{
                 $request->attributes->add(['is_login'=>2]);
-                exit;
             }
         }else{
             //todo 未登录
             $request->attributes->add(['is_login'=>0]);
-            exit;
         }
         return $next($request);
     }
