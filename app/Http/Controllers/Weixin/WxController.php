@@ -93,8 +93,12 @@ class WxController extends Controller
     public function login(){
         return view('login.login');
     }
-    public function menu(){
-        return view('login.menu');
+    public function menu(Request $request){
+
+        $data=[
+            'login'=>$request->get('is_login')
+        ];
+        return view('welcome',$data);
     }
 
 }
