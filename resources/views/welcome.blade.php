@@ -66,8 +66,8 @@
     <body>
         <div class="flex-center position-ref full-height">
                 <div class="top-right links">
-                        <a href="http://hao.tactshan.com/login">login</a>
-                        <a href="http://hao.tactshan.com/reg">Register</a>
+                        <a href="http://hao.tactshan.com/login?url={{$url}}">login</a>
+                        <a href="http://hao.tactshan.com/reg?url={{$url}}">Register</a>
                 </div>
             <div class="content">
                 <div class="title m-b-md">
