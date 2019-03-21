@@ -101,10 +101,14 @@ class WxController extends Controller
         return view('login.menu',$data);
     }
 
-    public function view(){
+    public function view(Request $request){
         $url="http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+        $data=[
+            'url'=>$url,
+            'login'=>$request->get('is_login')
+        ];
 
-        return view('welcome',['url'=>$url]);
+        return view('welcome',$data);
     }
 
 }

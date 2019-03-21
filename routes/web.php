@@ -14,7 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/', 'Weixin\WxController@view');
+Route::get('/', 'Weixin\WxController@view')->middleware('CheckLogin');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -26,4 +26,4 @@ Route::post('/weixin/docreate', 'Weixin\WxController@doCreate');
 Route::get('/weixin/api', 'Weixin\WxController@test');
 
 Route::get('/login', 'Weixin\WxController@login');
-Route::get('/menu', 'Weixin\WxController@menu')->middleware('CheckLogin');
+Route::get('/menu', 'Weixin\WxController@menu');
