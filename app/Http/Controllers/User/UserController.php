@@ -16,12 +16,14 @@ class UserController extends Controller
             'pwd'=>$pwd
         ];
         $url="http://hao.tactshan.com/login";
-        $client=new GuzzleHttp\Client(['base_url'=>$url]);
-        $r=$client->request('POST',$url,[
-            'body'=>json_encode($data,JSON_UNESCAPED_UNICODE)
-        ]);
-        $arr=json_decode($r->getBody(),true);
-        print_r($arr);die;
+        $ch=curl_init();
+        curl_setopt($ch,CURLOPT_URL,$url);
+        curl_setopt($ch,CURLOPT_POST,1);
+        curl_setopt($ch,CURLOPT_POSTFIELDS,$data);
+        curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
+        curl_setopt($ch,CURLOPT_HEADER,0);
+        $rs = curl_exec($ch);
+        $arr=json_decode($rs);
         if($arr['code']==1){
             $token=$arr['token'];
             $info=[
