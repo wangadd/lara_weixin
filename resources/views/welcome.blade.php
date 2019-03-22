@@ -67,9 +67,9 @@
         <div class="flex-center position-ref full-height">
                 <div class="top-right links">
                     @if($login==1)
-                        <a href="http://hao.tactshan.com/login?url={{$url}}">home</a>
+                        <a href="http://hao.tactshan.com/menu">menu</a>
                     @else
-                        <a href="http://hao.tactshan.com/login?url={{$url}}">login</a>
+                        <a href="http://hao.tactshan.com/pclogin?url={{$url}}">login</a>
                         <a href="http://hao.tactshan.com/reg?url={{$url}}">Register</a>
                     @endif
                 </div>
