@@ -16,7 +16,7 @@ class UserController extends Controller
             'pwd'=>$pwd
         ];
         $url="http://hao.tactshan.com/login";
-        $ch=curl_init();
+        $ch=curl_init($url);
         curl_setopt($ch,CURLOPT_URL,$url);
         curl_setopt($ch,CURLOPT_POST,1);
         curl_setopt($ch,CURLOPT_POSTFIELDS,$data);
