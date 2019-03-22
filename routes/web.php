@@ -26,7 +26,6 @@ Route::post('/weixin/docreate', 'Weixin\WxController@doCreate');
 Route::get('/weixin/api', 'Weixin\WxController@test');
 
 Route::get('/login', 'Weixin\WxController@login');
-Route::get('/menu', 'Weixin\WxController@menu');
 
 
 Route::post('/user/login', 'User\UserController@login');
