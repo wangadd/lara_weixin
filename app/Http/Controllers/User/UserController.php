@@ -21,6 +21,7 @@ class UserController extends Controller
             'body'=>json_encode($data,JSON_UNESCAPED_UNICODE)
         ]);
         $arr=json_decode($r->getBody(),true);
+        print_r($arr);die;
         if($arr['code']==1){
             $token=$arr['token'];
             $info=[
