@@ -20,7 +20,19 @@ class UserController extends Controller
             'body'=>json_encode($data,JSON_UNESCAPED_UNICODE)
         ]);
         $arr=json_decode($r->getBody(),true);
-        print_r($arr);
+        if($arr['code']==1){
+            $token=$arr['token'];
+            $info=[
+                'msg'=>'登录成功',
+                'token'=>$token
+            ];
+        }else{
+            $info=[
+                'msg'=>'登录失败',
+            ];
+        }
+        return $info;
+
 
 
     }
