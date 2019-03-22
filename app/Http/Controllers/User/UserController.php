@@ -24,8 +24,8 @@ class UserController extends Controller
         curl_setopt($ch,CURLOPT_HEADER,0);
         $rs = curl_exec($ch);
         $arr=json_decode($rs);
-        if($arr['code']==1){
-            $token=$arr['token'];
+        if($arr->code==1){
+            $token=$arr->token;
             $info=[
                 'msg'=>'登录成功',
                 'token'=>$token
