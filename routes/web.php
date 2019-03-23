@@ -29,3 +29,4 @@ Route::get('/login', 'Weixin\WxController@login');
 
 
 Route::post('/user/login', 'User\UserController@login');
+Route::get('/wish', 'User\UserController@wish');

@@ -126,36 +126,39 @@
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.60" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="28" />
-          <entry key="php" value="8429" />
+          <entry key="php" value="9098" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="2824" />
+          <entry key="Blade" value="3332" />
           <entry key="HTML" value="1" />
-          <entry key="PHP" value="5604" />
+          <entry key="PHP" value="5765" />
           <entry key="PLAIN_TEXT" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="env" value="2" />
-          <entry key="php" value="64" />
+          <entry key="js" value="1" />
+          <entry key="php" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="16" />
-          <entry key="PHP" value="48" />
+          <entry key="Blade" value="21" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PHP" value="52" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -164,10 +167,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <folding>
+                <element signature="e#45#73#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Weixin/WxController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="244">
+              <caret line="104" column="69" selection-start-line="104" selection-start-column="69" selection-end-line="104" selection-end-column="69" />
               <folding>
                 <element signature="e#47#75#0#PHP" expanded="true" />
                 <element signature="e#265#362#0#PHP" />
@@ -184,32 +199,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-              <folding>
-                <element signature="e#45#73#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/CheckLogin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-              <folding>
-                <element signature="e#39#51#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="428">
+              <caret line="105" column="40" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -217,17 +208,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="451">
+              <caret line="31" column="17" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -254,9 +236,11 @@
         <option value="$PROJECT_DIR$/resources/views/login/menu.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/CheckLogin.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="$PROJECT_DIR$/public/wish/index.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/login/wish.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Weixin/WxController.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
       </list>
     </option>
@@ -376,7 +360,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -408,19 +391,18 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="User" type="462c0819:PsiDirectoryNode" />
+              <item name="Weixin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lara_weixin" type="b2602c69:ProjectViewProjectNode" />
               <item name="lara_weixin" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lara_weixin" type="b2602c69:ProjectViewProjectNode" />
               <item name="lara_weixin" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lara_weixin" type="b2602c69:ProjectViewProjectNode" />
@@ -449,24 +431,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="Z:/passport" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="Z:\lara_weixin\app\Http" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\lara_weixin\public" />
       <recent name="Z:\lara_weixin\app\Http\Middleware" />
       <recent name="Z:\lara_weixin\resources\views\login" />
       <recent name="Z:\lara_weixin\resources\views\weixin" />
       <recent name="Z:\lara_weixin\app\Http\Controllers\Weixin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\lara_weixin\app\Http" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -500,18 +484,19 @@
       <workItem from="1552648840481" duration="307000" />
       <workItem from="1553140250650" duration="13287000" />
       <workItem from="1553216010800" duration="5486000" />
-      <workItem from="1553234095323" duration="1762000" />
+      <workItem from="1553234095323" duration="5762000" />
+      <workItem from="1553301392108" duration="1723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63137000" />
+    <option name="totallyTimeSpent" value="68860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49819493" visible="true" weight="0.23133236" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49819493" visible="true" weight="0.2306003" />
       <window_info id="Structure" order="1" sideWeight="0.50180507" side_tool="true" weight="0.16096424" />
       <window_info id="Favorites" order="2" sideWeight="0.50180507" side_tool="true" weight="0.16096424" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -696,13 +681,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
+    <entry file="file://$PROJECT_DIR$/public/wish/Js/iepng.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/CheckLogin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <element signature="e#45#73#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="690">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/login/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/login/menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/wish/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -713,37 +715,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/CheckLogin.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/login/wish.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#39#51#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/login/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/login/menu.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="-391">
+          <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="451">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#45#73#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Weixin/WxController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="244">
+          <caret line="104" column="69" selection-start-line="104" selection-start-column="69" selection-end-line="104" selection-end-column="69" />
           <folding>
             <element signature="e#47#75#0#PHP" expanded="true" />
             <element signature="e#265#362#0#PHP" />
@@ -758,8 +757,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+        <state relative-caret-position="428">
+          <caret line="105" column="40" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
         </state>
       </provider>
     </entry>
