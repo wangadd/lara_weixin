@@ -4,6 +4,7 @@ namespace App\Http\Controllers\User;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Redis;
 use GuzzleHttp;
 
 class UserController extends Controller
@@ -40,5 +41,15 @@ class UserController extends Controller
 
 
 
+    }
+    public function quit(Request $request){
+        $token=$request->input('token');
+        $uid=$request->input('uid');
+        $key="token:app:".$uid;
+        Redis::hdel('token',$key);
+        $info=[
+            'msg'=>'退出成功',
+        ];
+        echo json_encode($info);
     }
 }
