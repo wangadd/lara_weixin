@@ -67,9 +67,8 @@
         <div class="flex-center position-ref full-height">
                 <div class="top-right links">
                     @if($login==1)
-                        <input type="hidden" id="uid" value="{{$_COOKIE['uid']}}">
                         <a href="/weixin/menu">menu</a>
-                        <a href="#" id="quit">loginout</a>
+                        <a href="http://hao.tactshan.com/loginout?uid={{$_COOKIE['uid']}}" >loginout</a>
                     @else
                         <a href="http://hao.tactshan.com/login?url={{$url}}">login</a>
                         <a href="http://hao.tactshan.com/reg?url={{$url}}">Register</a>
@@ -93,20 +92,5 @@
         </div>
     </body>
 </html>
-<script>
-    $(function(){
-        $('#quit').click(function(){
-            var uid=$('#uid').val();
-            $.ajax({
-                url:"http://hao.tactshan.com/loginout",
-                data:{uid:uid},
-                method:'POST',
-                success:function(res){
-                    alert(res)
-                    window.location="/";
-                }
-            })
-        })
-    })
-</script>
+
 
