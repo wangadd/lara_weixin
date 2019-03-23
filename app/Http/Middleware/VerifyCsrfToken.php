@@ -22,6 +22,8 @@ class VerifyCsrfToken extends Middleware
         '/',
         '/weixin/docreate',
         '/user/login',
+        '/user/quit',
+        
 
 
     ];
