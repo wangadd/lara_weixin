@@ -17,7 +17,7 @@ class CheckLogin
     {
         if(isset($_COOKIE['uid']) && isset($_COOKIE['token'])){
             //todo
-            $key="token:".$_COOKIE['uid'];
+            $key="token:pc:".$_COOKIE['uid'];
             $token=Redis::get($key);
             if($_COOKIE['token']==$token){
                 $request->attributes->add(['is_login'=>1]);
