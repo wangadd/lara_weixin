@@ -73,6 +73,43 @@
       <change beforePath="$PROJECT_DIR$/public/js/jquery-3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery-3.2.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/a1_1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/a1_1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/a1_2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/a1_2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/a1_3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/a1_3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/a2_1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/a2_1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/a2_2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/a2_2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/a2_3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/a2_3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/a3_1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/a3_1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/a3_2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/a3_2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/a3_3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/a3_3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/a4_1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/a4_1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/a4_2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/a4_2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/a4_3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/a4_3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/a5_1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/a5_1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/a5_2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/a5_2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/a5_3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/a5_3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/bg_main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/bg_main.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/phiz/baobao.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/phiz/baobao.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/phiz/haixiu.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/phiz/haixiu.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/phiz/huaxin.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/phiz/huaxin.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/phiz/jiyan.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/phiz/jiyan.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/phiz/ku.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/phiz/ku.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/phiz/qian.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/phiz/qian.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/phiz/taikaixin.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/phiz/taikaixin.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/phiz/touxiao.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/phiz/touxiao.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/phiz/xixi.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/phiz/xixi.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/phiz/zhuakuang.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/phiz/zhuakuang.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/send-btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/send-btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/send-title.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/send-title.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/send.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/send.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Images/top.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Images/top.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Js/iepng.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Js/iepng.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/Js/jquery-1.7.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/Js/jquery-1.7.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wish/wish_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/wish/wish_add.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
@@ -85,6 +122,7 @@
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/login/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/login/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/login/wish.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login/wish.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/weixin/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/weixin/menu.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/wx_admin/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/wx_admin/menu.blade.php" afterDir="false" />
@@ -485,15 +523,15 @@
       <workItem from="1553140250650" duration="13287000" />
       <workItem from="1553216010800" duration="5486000" />
       <workItem from="1553234095323" duration="5762000" />
-      <workItem from="1553301392108" duration="1723000" />
+      <workItem from="1553301392108" duration="2320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68860000" />
+    <option name="totallyTimeSpent" value="69457000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49819493" visible="true" weight="0.2306003" />
