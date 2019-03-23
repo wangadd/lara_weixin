@@ -28,7 +28,8 @@ class UserController extends Controller
             $token=$arr->token;
             $info=[
                 'msg'=>'登录成功',
-                'token'=>$token
+                'token'=>$token,
+                'uid'=>$arr->uid
             ];
         }else{
             $info=[
