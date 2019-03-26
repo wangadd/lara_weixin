@@ -31,3 +31,6 @@ Route::get('/login', 'Weixin\WxController@login');
 Route::post('/user/login', 'User\UserController@login');
 Route::post('/user/quit', 'User\UserController@quit');
 Route::get('/wish', 'User\UserController@wish');
+
+//支付宝app支付
+Route::get('/alipay', 'Pay\PayController@aliPay');
